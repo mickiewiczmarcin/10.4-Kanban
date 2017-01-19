@@ -1,0 +1,43 @@
+body {
+	background-color: #BCBB9D;
+	display: flex;
+	justify-content: center;
+}
+.create-column {
+	margin-left: 50vh;
+}
+.board h1 {
+	text-align: center;
+	font-weight: solid;
+}
+.column-container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.column {
+	min-width: 300px;
+	min-height: 500px;
+	margin: 0 auto;
+	background-color: #D4D79E;
+	border: solid;;
+	border-radius: 10px;
+	margin: 10px 20px 0px;
+}
+.column h2 {
+	text-align: center;
+}
+.column ul {
+	list-style: none;
+}
+.card-placeholder {
+	background-color: red;
+	border: solid;
+	height: 50px;
+}
+.bg-info {
+	font-size: 15px;
+	font-weight: 500;
+	border-radius: 5px;
+	padding: : 2px;
+}
