@@ -41,3 +41,9 @@ body {
 	border-radius: 5px;
 	padding: : 2px;
 }
+.column-card-list {
+	min-height: 10px;
+}
+.column-card-list li {
+	display: flex;
+}
